@@ -1,0 +1,12 @@
+name: Fail
+on:
+  workflow_dispatch: 
+
+jobs:
+  fail:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: ./
+        with:
+          name: 'Fail'

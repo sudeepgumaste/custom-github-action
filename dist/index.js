@@ -27549,6 +27549,9 @@ const core_1 = __nccwpck_require__(9999);
 async function run() {
     const name = (0, core_1.getInput)('name');
     console.log(`Hello ${name}`);
+    if (name === 'Fail') {
+        (0, core_1.setFailed)('This was set to fail');
+    }
 }
 run();
 
