@@ -1,7 +1,7 @@
-name: "Label new pull requests"
-description: "Add a label when a new PR is opened."
-author: "Sudeep Gumaste"
+name: 'My Custom Action'
+description: 'Say Hello'
+author: 'Leonardo Montini'
 
 runs:
-  using: "node20"
-  main: "dist/index.js"
+  using: 'node20'
+  main: 'dist/index.js'

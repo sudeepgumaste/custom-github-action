@@ -1,11 +1,9 @@
 name: Say Hello
-
 on:
-  workflow_dispatch:
+  workflow_dispatch: 
 
 jobs:
-  run-my-action:
-    name: Checks if this action works
+  hello:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
