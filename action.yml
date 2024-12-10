@@ -2,6 +2,12 @@ name: 'My Custom Action'
 description: 'Say Hello'
 author: 'Leonardo Montini'
 
+inputs:
+  name:
+    description: 'Who to greet'
+    required: true
+    default: 'World'
+
 runs:
   using: 'node20'
   main: 'dist/index.js'
